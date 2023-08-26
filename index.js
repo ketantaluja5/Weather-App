@@ -87,7 +87,7 @@ async function fetchUserWeatherInfo(coordinates) {
 
 function renderWeatherInfo(weatherInfo) {
   //firstly fetch the elements
-
+  notFound.classList.remove("active");
   const cityName = document.querySelector("[data-cityName]");
   const countryIcon = document.querySelector("[data-countryIcon]");
   const desc = document.querySelector("[data-weatherDesc]");
