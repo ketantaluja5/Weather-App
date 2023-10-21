@@ -16,7 +16,7 @@ const errorImage = document.querySelector("[data-errorImg]");
 
 // initial variables needed
 let oldTab = userTab;
-const API_KEY = "4a89d825e99a1aa1fd3284d68aa6b492";
+const API_KEY = "INSERT YOUR API KEY HERE";
 oldTab.classList.add("current-tab");
 getfromSessionStorage();
 
